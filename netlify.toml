@@ -1,8 +1,8 @@
 [build]
     command         = 'yarn build'
     commandOrigin   = 'config'
-    functions       = '/opt/build/repo/out_functions'
-    publish         = '/opt/build/repo/out_publish'
+    functions       = 'out_functions'
+    publish         = 'out_publish'
 
 [[plugins]]
     package = "@netlify/plugin-nextjs"
