@@ -1,5 +1,8 @@
 [build]
-    command         = 'npm run build && npm run export'
+    command         = 'yarn build'
     commandOrigin   = 'config'
     functions       = '/opt/build/repo/out_functions'
     publish         = '/opt/build/repo/out_publish'
+
+[[plugins]]
+    package = "@netlify/plugin-nextjs"
