@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
     "start": "next build && next start",
     "dev:ts": "nodemon --watch ./server/ --exec ts-node server/app.ts",
     "postbuild": "next-on-netlify"
